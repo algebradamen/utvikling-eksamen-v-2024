@@ -1,8 +1,8 @@
-const express = require('express');
-const { Pool } = require('pg');
+const express = require('express');  // bruker express biblioteket
+const { Pool } = require('pg'); // bruker pg biblioteket for å koble til postgres database
 
 // PostgreSQL connection setup
-const pool = new Pool({
+const pool = new Pool({     // oppretter en ny pool for å koble til databasen
     user: 'postgres.kmahegtyinuhqxqsylhs',
     host: 'aws-0-eu-north-1.pooler.supabase.com',
     database: 'postgres',
@@ -11,7 +11,7 @@ const pool = new Pool({
 });
 
 // Test the database connection
-console.log
+
 pool.connect((err, client, release) => {
     if (err) {
         return console.error('Error acquiring client', err.stack);
@@ -21,7 +21,7 @@ pool.connect((err, client, release) => {
 });
 console.log('Connected to the PostgreSQL database (maybe)');
 
-const app = express();
+const app = express();     // oppretter en ny express app -- dette er en webserver som kjører på port 3000
 const PORT = 3000;
 
 // Middleware to serve static assets
