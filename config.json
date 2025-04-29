@@ -1,0 +1,6 @@
+{
+    "supaDBpassword":"iF4BTKyf8QicgiUg",
+    "supaDBurl":"postgresql://postgres.kmahegtyinuhqxqsylhs:iF4BTKyf8QicgiUg@aws-0-eu-north-1.pooler.supabase.com:6543/postgres",
+    "supaDBkey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTQ4NTY0NzEsInN1YiI6IjEwMDAwMDAwMDAwMDAwMDAwMCIsInNjb3BlcyI6W119.7v8gk"
+
+}

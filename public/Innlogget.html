@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChatteApp</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .user-name {
+            font-weight: bold;
+            color: darkmagenta;
+        }
+
+        h1 {
+            text-align: center;
+            color: darkmagenta;
+        }
+
+        fieldset legend {
+            color: darkmagenta;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .chat-rooms {
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        .chat-rooms ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .chat-rooms li {
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            margin-bottom: 5px;
+            padding: 5px;
+        }
+
+        .new-chat-room {
+            margin: 0 auto;
+            width: 50%;
+        }
+
+        .new-chat-room fieldset {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .new-chat-room legend {
+            font-weight: bold;
+        }
+
+        .new-chat-room label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .new-chat-room input[type="text"],
+        .new-chat-room select {
+            width: 100%;
+        }
+
+        .new-chat-room button {
+            margin-top: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+<h1>ChatteApp</h1>
+
+<section class="profile">
+<p>
+    Du er logget inn som <span class="user-name">Innbygger Innbyggersen</span>.
+</p>
+<button>Logg ut</button>
+</section>
+
+<section class="chat-rooms">
+<ul>
+    <li>Spansk - matlaging</li>
+    <li>Italiensk - vinkurs</li>
+    <li>Spansk for nybegynnere</li>
+</ul>
+</section>
+
+<section class="new-chat-room">
+<form>
+    <fieldset>
+        <legend>Opprett nytt chatterom</legend>
+        <label>
+            Navn på chatterom:
+            <input type="text" name="room-name">
+        </label>
+        <label>
+            Språk:
+            <select name="language">
+                <option value="spansk">Spansk</option>
+                <option value="italiensk">Italiensk</option>
+                <option value="engelsk">Engelsk</option>
+            </select>
+        </label>
+        <button type="submit">Opprett</button>
+    </fieldset>
+</form>
+</section>
+
+</body>
+</html>
