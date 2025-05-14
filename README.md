@@ -18,3 +18,8 @@ webserveren starter opp på localhost:3000
 ```
     set path=%path%c:\users\AFK01859\Apps\node
 ```    
+
+# Dokumentasjon for løsningen ligger her: 
+
+<a href="https://tangen-2it-utvikling.netlify.app/content/eksamen-utvikling-2024V-presentasjon">
+https://tangen-2it-utvikling.netlify.app/content/eksamen-utvikling-2024V-presentasjon</a>
