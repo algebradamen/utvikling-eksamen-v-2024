@@ -77,7 +77,8 @@
     <script>
 
         function fetchChatRooms() {
-            const url = 'chat-rooms.json';
+            //const url = 'chat-rooms.json';
+            const url = 'http://localhost:3000/api/chat-rooms'; // URL til API-endepunktet
             // Her kan du bruke fetch for å hente data fra serveren
             fetch(url)
                 .then(response => response.json())

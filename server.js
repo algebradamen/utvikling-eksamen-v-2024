@@ -36,6 +36,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 
+// Rute for å hente språk (brukes ikke av websiden foreløpig)
 app.get('/api/sprak', async (req, res) => {
     try {
         const result = await pool.query('SELECT * FROM språk'); // Replace with your table name
@@ -46,6 +47,8 @@ app.get('/api/sprak', async (req, res) => {
     }
 })
 
+// Rute for å hente chat-rooms fra databasen, og
+// returnere disse som JSON.
 app.get('/api/chat-rooms', async (req, res) => {
     try {
         const result = await pool.query('SELECT * FROM chat_room'); // Replace with your table name
